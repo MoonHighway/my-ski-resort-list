@@ -1,0 +1,34 @@
+{
+  "name": "my-ski-resort-list",
+  "description": "A application that allows users to access ski maps from resorts that they have visited.",
+  "keywords": [
+    "js",
+    "node",
+    "express",
+    "backbone",
+    "tutorial",
+    "example",
+    "sample"
+  ],
+  "author": "Moon Highway (Alex Banks)",
+  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "node-dev ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.12.0",
+    "cookie-parser": "~1.3.4",
+    "cors": "^2.5.3",
+    "debug": "~2.1.1",
+    "express": "~4.12.0",
+    "hbs": "~2.8.0",
+    "mh-xmldown": "^0.1.0",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
+  },
+  "devDependencies": {}
+}

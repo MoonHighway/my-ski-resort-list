@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+
+    <!-- jQuery UI CSS Theme -->
+    <link href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Our Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+    <!-- jQuery from CDN -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <!-- jQuery UI from CDN -->
+    <script src="//code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+
+    <!-- Backbone form CDN -->
+    <script src="//jashkenas.github.io/underscore/underscore-min.js"></script>
+    <script src="//jashkenas.github.io/backbone/backbone-min.js"></script>
+
+    <!-- Handlebars -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.js"></script>
+
+    <!-- Ski Area View Template -->
+    <script id="tpl-ski-area" type="text/template">
+        <h1>{{name}}</h1>
+        <div class="links">
+            <a href="{{web}}" target="_blank">website</a>
+            <a href="https://skimap.org/SkiAreas/view/{{id}}" target="_blank">maps</a>
+        </div>
+    </script>
+
+    <!-- Edit Ski Areas View Template -->
+    <script id="tpl-edit" type="text/template">
+        <ul>
+            {{#each items}}
+                <li data-id="{{id}}">{{id}}: {{name}}</li>
+            {{/each}}
+        </ul>
+        <input type="text" placeholder="add resort..." />
+        <span><em>*note: dobule click item to remove</em></span>
+    </script>
+
+    <title>My Ski Resort List</title>
+
+</head>
+<body>
+    <header>
+        <h1>My Ski Resort List</h1>
+
+    </header>
+    <nav>
+        <a href="/#/">Full List</a>
+        <a href="/#/manage">manage list</a>
+    </nav>
+
+    <section id="content">
+    </section>
+
+    <script src="/js/SkiAreaModel.js"></script>
+    <script src="/js/SkiAreaCollection.js"></script>
+    <script src="/js/SkiAreaView.js"></script>
+    <script src="/js/SkiAreasView.js"></script>
+    <script src="/js/ManageMyAreasView.js"></script>
+    <script src="/js/AppRouter.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
