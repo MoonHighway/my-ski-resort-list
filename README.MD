@@ -1,0 +1,20 @@
+My Ski Resort List
+===================
+My Ski Resort List is a full stack sample app developed using Node js with Backbone js.  This sample was
+designed to teach developers how to build a full stack application with node js in an ILT format.
+
+Installation
+------------
+1. Install the dependencies
+
+        $ npm install
+
+2. Run the application
+
+        $ npm start
+
+or run with node-dev using:
+
+        $ npm run devstart
+
+3. Open the web browser to: [http://localhost:3000](http://localhost:3000)
