@@ -1,4 +1,4 @@
-define(['./SkiAreaModel.js'], function(SkiArea) {
+define(['backbone', './SkiAreaModel.js'], function(Backbone, SkiArea) {
 
 	return Backbone.Collection.extend({
 	    model: SkiArea,

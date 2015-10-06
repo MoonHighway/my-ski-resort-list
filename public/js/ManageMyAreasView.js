@@ -1,4 +1,4 @@
-define(function() {
+define(["jquery", "jquery-ui", "backbone", "handlebars"], function($, ui, Backbone, Handlebars) {
 
     return Backbone.View.extend({
         tagName: 'section',

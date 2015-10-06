@@ -1,4 +1,4 @@
-define(["./SkiAreaView.js"], function(SkiAreaView) {
+define(["jquery", "backbone", "handlebars", "./SkiAreaView.js"], function($, Backbone, Handlebars, SkiAreaView) {
 
     return Backbone.View.extend({
         tagName: 'section',

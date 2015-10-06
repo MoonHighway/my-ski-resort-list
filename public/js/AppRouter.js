@@ -1,8 +1,10 @@
-define(["./SkiAreaCollection.js",
+define(["jquery",
+        "backbone",
+        "./SkiAreaCollection.js",
         "./ManageMyAreasView.js",
         "./SkiAreaModel.js",
         "./SkiAreaView.js",
-        "./SkiAreasView.js"], function(SkiAreaCollection, ManageMyAreasView, SkiAreaModel, SkiAreaView, SkiAreasView) {
+        "./SkiAreasView.js"], function($, Backbone, SkiAreaCollection, ManageMyAreasView, SkiAreaModel, SkiAreaView, SkiAreasView) {
 
     return Backbone.Router.extend({
         routes: {
