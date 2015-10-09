@@ -46,13 +46,8 @@ describe("My Resort List", function () {
         });
 
         it("has correct title", function () {
-            var heading = this.$('body>h1').text();
-            expect(heading).to.equal("Ski Resorts API");
-        });
-
-        it("lists routes", function () {
-            var list = this.$('body>ol>li');
-            expect(list.length).to.equal(3);
+            var heading = this.$('header>h1').text();
+            expect(heading).to.equal("My Ski Resort List");
         });
 
     });
