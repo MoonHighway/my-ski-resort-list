@@ -7,30 +7,30 @@ Installation
 ------------
 1. Install the dependencies
 
-        $ npm install
+       `npm install`
         
 2. Install Bower Globally
 
-	$ sudo npm install -g bower
+	`sudo npm install -g bower`
 	
 3. Navigate to the ./public folder
 
-	cd ./public
+	`cd ./public`
 	
 4. Run the bower install
 
-	bower install        
+	`bower install`        
 
 5. Navigate back to the root
 
-	cd ..
+	`cd ..`
 
 6. Run the application
 
-	$ npm start
+	`npm start`
 
 or run with node-dev using:
 
-        $ npm run devstart
+        `npm run devstart`
 
 7. Open the web browser to: [http://localhost:3000](http://localhost:3000)
