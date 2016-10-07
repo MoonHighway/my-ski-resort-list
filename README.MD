@@ -30,7 +30,6 @@ Installation
 	`npm start`
 
 or run with node-dev using:
-
 	`npm run devstart`
 
 7. Open the web browser to: [http://localhost:3000](http://localhost:3000)
